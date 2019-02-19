@@ -9,6 +9,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/other_welcome_text"/>
+        android:text="@string/other_welcome_text"
+        android:id="@+id/welcome_name_text"/>
+
+    <Button
+        android:id="@+id/return_to_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/return_button_text"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_name_text"
+        tools:layout_editor_absoluteX="0dp" />
 
 </android.support.constraint.ConstraintLayout>
