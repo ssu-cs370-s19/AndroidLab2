@@ -4,17 +4,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/default_padding"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
 
     <TextView
-        android:layout_width="99dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Enter your name."/>
 
-    <Button
-        android:id="@+id/navigate_button"
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/navigate_button_text" />
+        android:id="@+id/name_edit_text"
+        android:inputType="text"/>
+
+        <Button
+            android:id="@+id/navigate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/navigate_button_text" />
+
 
 </LinearLayout>
