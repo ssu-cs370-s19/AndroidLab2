@@ -6,9 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".OtherActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/other_welcome_text"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/other_welcome_text"
+            android:id="@+id/welcome_name_text"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/return_button"
+            android:text="@string/return_to_main"/>
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
