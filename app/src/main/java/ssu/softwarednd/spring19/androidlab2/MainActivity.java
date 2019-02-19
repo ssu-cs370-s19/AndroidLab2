@@ -5,10 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button navigateButton;
+    private EditText nameEditText;
 
 
     @Override
@@ -21,9 +23,13 @@ public class MainActivity extends AppCompatActivity {
         navigateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String name = nameEditText.getText().toString();
+
 
                 Intent intent = new Intent(MainActivity.this, OtherActivity.class);
+                intent.putExtra(OtherActivity.NAME_KEY, name);
                 startActivity(intent);
+
             }
         });
 

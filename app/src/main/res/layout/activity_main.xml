@@ -11,6 +11,17 @@
         android:layout_height="wrap_content"
         android:text="Hello World!" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your name: " />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_edit_text"
+        android:inputType="text"/>
+
     <Button
         android:id="@+id/navigate_button"
         android:text="@string/navigate_button_text"
