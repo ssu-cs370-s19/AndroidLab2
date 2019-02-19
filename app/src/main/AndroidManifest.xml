@@ -2,10 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ssu.softwarednd.spring19.androidlab2">
 
-    <!-- app permissions -->
-
-
-    <!-- application components -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".OtherActivity"></activity>
         <activity android:name=".MainActivity">
+
             <!-- specifies the types of intents this activity can respond to -->
             <intent-filter>
+
                 <!-- the main entry point for the application -->
                 <action android:name="android.intent.action.MAIN" />
                 <!-- put an icon for this activity in the app tray -->
