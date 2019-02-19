@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidLab2</string>
+    <string name="other_welcome_text">Welcome to OtherActivity!"</string>string>
+    <string name= "Navigate_button_text">Go to OtherActivity</string>string>
 </resources>
