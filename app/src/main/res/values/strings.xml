@@ -2,5 +2,5 @@
     <string name="app_name">AndroidLab2</string>
     <string name="other_welcome_text">Welcome to Other Activity!</string>
     <string name="navigate_button_text">Go to Other Activity</string>
-
+    <string name="back_navigate_button_text">Go to Main Activity</string>
 </resources>
